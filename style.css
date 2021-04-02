@@ -1,0 +1,111 @@
+*,
+*:after
+*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --theme-color:#ff2b1c;
+}
+
+body{
+    background-color: #fafafa;
+
+}
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.card{
+    height: 400px;
+    width: 320px;
+    background: linear-gradient(
+        to bottom,
+        var(--theme-color) 110px,
+        #ffffff 110px
+    );
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(50,50,50,0.5);
+    padding: 50px 0;
+}
+
+.card *{
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    box-shadow:0 0 0 5px #fafafa;
+}
+.card h4{
+    color: var(--theme-color);
+    font-size: 20px;
+    margin: 10px 0 0 20px;
+
+}
+.card h5{
+    color: #454545;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 3px 0 0 20px;
+}
+
+.btn{
+    position: absolute;
+    left: 140px;
+    top: 230px;
+}
+
+.buttons button{
+    font-size: 14px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #fd4a33;
+}
+
+.buttons button:hover{
+    background-color: #fd4a33; /* Green */
+    
+}
+
+.media{
+    position: absolute;
+    top:-10px;
+    right: 100px;
+}
+
+.media ul li{
+    display: inline-flex;
+}
+
+.media ul li a{
+    color: rgb(32, 30, 30);
+    font-size: 35px;
+    margin: 2px ;
+}
+
+.txt h3{
+    position: absolute;
+    top: 400px;
+    right: 80px;
+    color: #454545;
+}
