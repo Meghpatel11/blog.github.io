@@ -83,14 +83,14 @@ img{
 }
 
 .buttons button:hover{
-    background-color: #fd4a33; /* Green */
+    background-color: #fd4a33; 
     
 }
 
 .media{
     position: absolute;
-    top:-10px;
-    right: 100px;
+    top:-12px;
+    right: 90px;
 }
 
 .media ul li{
@@ -99,13 +99,13 @@ img{
 
 .media ul li a{
     color: rgb(32, 30, 30);
-    font-size: 35px;
-    margin: 2px ;
+    font-size: 30px;
+    margin: 7px ;
 }
 
 .txt h3{
     position: absolute;
     top: 400px;
-    right: 80px;
+    right: 65px;
     color: #454545;
 }
